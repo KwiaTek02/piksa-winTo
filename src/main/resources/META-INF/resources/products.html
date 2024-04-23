@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Shop</title>
+</head>
+<body>
+<h1>Online Shop</h1>
+<form action="/shop" method="post">
+    <label for="product">Produkt:</label>
+    <select id="product" name="product">
+        <option value="Mleko">Mleko</option>
+        <option value="Woda niegazowana">Woda niegazowana</option>
+        <option value="Coca-cola">Coca-cola</option>
+        <option value="Szynka">Szynka</option>
+        <option value="Jabłko">Jabłko</option>
+        <option value="Herbata">Herbata</option>
+        <option value="Kabanosy">Kabanosy</option>
+        <option value="Paluszki">Paluszki</option>
+    </select>
+    <label for="quantity">Ilość:</label>
+    <input type="number" id="quantity" name="quantity" min="1" value="1">
+    <button type="submit">Dodaj do koszyka</button>
+</form>
+</body>
+</html>
